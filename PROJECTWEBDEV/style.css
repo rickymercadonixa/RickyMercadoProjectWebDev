@@ -201,6 +201,7 @@ label:hover{
 
 #events{
     scroll-margin: 5.2rem;
+    background-color: grey;
 }
 
 .container{
@@ -217,6 +218,7 @@ label:hover{
 
 div{
     text-align: center;
+    
 }
 
 #prog{
@@ -237,6 +239,7 @@ div{
     display: inline-block;
     border-radius: 50px;
     letter-spacing: 2px;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.7);
 }
 
 #om{
@@ -252,9 +255,19 @@ div{
     display: inline-block;
     border-radius: 50px;
     letter-spacing: 2px;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.7);
 }
 
-#em{
+
+#em a{
+    text-decoration: none;
+}
+
+#hey{
+    line-height: 3rem;
+}
+
+#education{
     min-width: 150px;
     bottom: 0;
     background: #FFA500;
@@ -267,16 +280,41 @@ div{
     display: inline-block;
     border-radius: 50px;
     letter-spacing: 2px;
-    margin-left: 30px;
-    padding: 20px;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.7);
 }
 
-#em a{
-    text-decoration: none;
+#engineer{
+    min-width: 150px;
+    bottom: 0;
+    background: #FFA500;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    border-radius: 50px;
+    letter-spacing: 2px;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.7);
+    height: 58vh;
 }
 
-#hey{
-    line-height: 3rem;
+#business{
+    min-width: 150px;
+    bottom: 0;
+    background: #FFA500;
+    padding: 10px 15px;
+    text-align: center;
+    font-size: 13px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    display: inline-block;
+    border-radius: 50px;
+    letter-spacing: 2px;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.7);
+    height: 75vh;
 }
 
 /* 4th Section */
@@ -310,6 +348,7 @@ div{
     padding: 20px 20px 20px 20px;
     border: none;
     border-radius: 45px;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.7);
 }
 
 #ui{
@@ -321,14 +360,84 @@ div{
     border-radius: 30px 0;
     padding: 20px 20px 20px 20px;
     font-size: 20px;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+#iu{
+    color: white;
+    line-height: 40px;
+    text-align: justify;
+    background-color: #FFA500;
+    border: none;
+    border-radius: 30px;
+    padding: 20px 20px 20px 20px;
+    font-size: 20px;
+    text-align: center;
+    display: inline-block;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.7);
 }
 
 
+#fb{
+    width: 40px;
+}
 
-
+#gmail{
+    width: 40px;
+}
 
 /* 5th section */
 #sign-up{
     height: 100vh;
     scroll-margin: 5.2rem;
 }
+
+label{
+    font-size: 25px;
+}
+
+.log-on{
+    height: 100vh;
+    background-color: grey;
+    width: 100vw;
+    border: none;
+    place-items: center;
+    color: white;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#submit{
+    color: white;
+    background-color: #FFA500;
+    border: none;
+    border-radius: 25px;
+    width: 200px;
+    height: 50px;
+    cursor: pointer;
+    transition: 1s;
+    font-size: 25px;
+}
+
+#submit:hover{
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+input{
+    border: none;
+    border-radius: 15px;
+    width: 450px;
+    height: 50px;
+    transition: 1s;
+    font-weight: normal;
+    margin: 8px 0;
+    display: inline-block;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+input:hover{
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.7);
+}
+
+
