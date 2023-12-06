@@ -220,7 +220,7 @@ div{
 }
 
 #prog{
-    color: #FFA500;
+    color: white;
     margin-top: 20px;
 }
 
@@ -282,5 +282,53 @@ div{
 /* 4th Section */
 
 #about{
+    height: 100vh;
+    scroll-margin: 5.2rem;
+    background-image:linear-gradient(rgba(0,0,0,0.75),rgba(0,0,0,0.75)), url(prisaa.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contain{
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+.contain div{
+    align-items: center;
+    margin: 20px;
+    width: 100vw;
+}
+
+#ye{
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+    background: #f6783a;
+    padding: 20px 20px 20px 20px;
+    border: none;
+    border-radius: 45px;
+}
+
+#ui{
+    color: white;
+    line-height: 40px;
+    text-align: justify;
+    background-color: #FFA500;
+    border: none;
+    border-radius: 30px 0;
+    padding: 20px 20px 20px 20px;
+    font-size: 20px;
+}
+
+
+
+
+
+/* 5th section */
+#sign-up{
+    height: 100vh;
     scroll-margin: 5.2rem;
 }
