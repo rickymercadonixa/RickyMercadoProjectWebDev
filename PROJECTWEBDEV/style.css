@@ -389,6 +389,11 @@ div{
     width: 40px;
 }
 
+#LeianeMyLoves{
+    color: white;
+    text-decoration: underline;
+}
+
 /* 5th section */
 #sign-up{
     height: 100vh;
@@ -442,5 +447,4 @@ input{
 input:hover{
     box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.7);
 }
-
 
