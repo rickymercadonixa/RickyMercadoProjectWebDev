@@ -4,7 +4,7 @@
  	$password = $_POST['password'];
 
  	$valid_username = 'torrejos';
- 	$valid_password = 'gwapa';
+ 	$valid_password = 'gwapo';
 
  	if($username === $valid_username && $password === $valid_password){
  		echo "Welcome, $username";
