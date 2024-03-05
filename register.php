@@ -11,7 +11,7 @@
 		$query = "SELECT * FROM `users` WHERE `Username` = '$users'";
 		$stmts = $conn->prepare($query);
 		$stmts->execute();
-		$resilt = $stmts->get_result();
+		$result = $stmts->get_result();
 		$row = $result->fetch_assoc();
 
 		if($users == @$row['Username']){
