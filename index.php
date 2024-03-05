@@ -4,9 +4,9 @@
 		$users = $_POST['user'];
 		$passs = $_POST['pass'];
 
-		$sql = "SELECT * FROM 'users' WHERE 'Username' = ? AND 'Password' = ?";
+		$sql = "SELECT * FROM `users` WHERE `Username` = ? AND `Password` = ?";
 		$stmt = $conn->prepare($sql);
-		$stmt -> bind_param("ss",$users,$passs);
+		$stmt  -> bind_param("ss",$users,$passs);
 		$stmt->execute();
 		$result = $stmt->get_result();
 		$row = $result->fetch_assoc();
