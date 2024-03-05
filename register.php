@@ -18,7 +18,7 @@
 			echo 'User is already exist';
 		}else{
 			$sql = "INSER_INTO `users`(`Username`, `Password`, `Fname`, `Mname`, `Lname`, `Position`) VALUES (?,?,?,?,?,?)";
-			$stmt = $con->prepare($sql);
+			$stmt = $conn->prepare($sql);
 			$stmt -> bind_param("ssssss",$users,$passs,$fnames,$mnames,$lnames,$pos);
 			$stmt->execute();
 			echo 'Registered Successfully';
@@ -31,7 +31,30 @@
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
+<h2>SIGN UP!</h2>
 <body>
+  <div class="login-form">
+    <form action="form-group">
+      <label for="user">Usernane <span class="required-indicator">*</span></label><span class="required-label">is required</span><br>
+      <input type="text" name="user" id="user" required><br><br>
 
+      <label for="pass">Password <span class="required-indicator">*</span></label><span class="required-label">is required</span><br>
+      <input type="password" name="passs" id="user" required><br><br>
+
+      <label for="fname">Firstname <span class="required-indicator">*</span></label><span class="required-label">is required</span><br>
+      <input type="text" name="fname" id="fname" required><br><br>
+
+      <label for="mname">Middlename <span class="required-indicator">*</span></label><span class="required-label">is required</span><br>
+      <input type="text" name="mname" id="mname" required><br><br>
+
+      <label for="lname">Lastname <span class="required-indicator">*</span></label><span class="required-label">is required</span><br>
+      <input type="text" name="lname" id="lname" required><br><br>
+
+      <div class="form-group">
+        <button type="submit" name="submit">REGISTER</button><br><br>
+</div>
+    </form>
+  </div>
+  <p>Already have an account? <a href="index.php">Login Here</a></p>
 </body>
 </html>
