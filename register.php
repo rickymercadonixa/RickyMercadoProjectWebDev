@@ -39,7 +39,7 @@
       <input type="text" name="user" id="user" required><br><br>
 
       <label for="pass">Password <span class="required-indicator">*</span></label><span class="required-label">is required</span><br>
-      <input type="password" name="passs" id="user" required><br><br>
+      <input type="password" name="pass" id="user" required><br><br>
 
       <label for="fname">Firstname <span class="required-indicator">*</span></label><span class="required-label">is required</span><br>
       <input type="text" name="fname" id="fname" required><br><br>
