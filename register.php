@@ -38,23 +38,31 @@
       <label for="user">Usernane <span class="required-indicator">*</span></label><span class="required-label">is required</span><br>
       <input type="text" name="user" id="user" required><br><br>
 
+      <div class="login-form">
       <label for="pass">Password <span class="required-indicator">*</span></label><span class="required-label">is required</span><br>
       <input type="password" name="pass" id="user" required><br><br>
+</div>
 
-      <label for="fname">Firstname <span class="required-indicator">*</span></label><span class="required-label">is required</span><br>
+<div class="login-form">
+<label for="fname">Firstname <span class="required-indicator">*</span></label><span class="required-label">is required</span><br>
       <input type="text" name="fname" id="fname" required><br><br>
-
+</div>
+<div class="login-form">
       <label for="mname">Middlename <span class="required-indicator">*</span></label><span class="required-label">is required</span><br>
       <input type="text" name="mname" id="mname" required><br><br>
-
+      </div>
+      <div class="login-form">
       <label for="lname">Lastname <span class="required-indicator">*</span></label><span class="required-label">is required</span><br>
       <input type="text" name="lname" id="lname" required><br><br>
-
+      </div>
       <div class="form-group">
         <button type="submit" name="submit">REGISTER</button><br><br>
+</div>
 </div>
     </form>
   </div>
   <p>Already have an account? <a href="index.php">Login Here</a></p>
+  <br><br>
+</div>
 </body>
 </html>
