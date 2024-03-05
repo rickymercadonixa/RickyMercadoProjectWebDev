@@ -34,7 +34,7 @@
 <h2>SIGN UP!</h2>
 <body>
   <div class="login-form">
-    <form action="form-group">
+    <form action="">
       <label for="user">Usernane <span class="required-indicator">*</span></label><span class="required-label">is required</span><br>
       <input type="text" name="user" id="user" required><br><br>
 
