@@ -1,4 +1,4 @@
-<?phpb include 'connection.php' ?>
+<?php include 'connection.php' ?>
 <?php  
 	if (isset($_POST['submit'])){
 		$users = $_POST['user'];
